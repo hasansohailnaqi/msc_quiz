@@ -1,19 +1,7 @@
+#!/usr/bin/env node
 
 import chalk from "chalk";
 import inquirer from "inquirer";
-
-
-/*
-
-let a = await inquirer.prompt({
-    type: "input",
-    name: "msc",
-    message: "what is your name",
-})
-
-console.log(chalk.green(a.msc));
-
-*/
 
 const apiLink:string = "https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple";
 
